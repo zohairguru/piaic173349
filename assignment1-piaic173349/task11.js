@@ -9,8 +9,8 @@ function convert() {
 
 function celsius() {
     var f = document.getElementById('tem').value;
-    alert(f);
+    //alert(f);
     var c = (f - 32) * 5 / 9;
-    alert(c);
+    //alert(c);
     document.getElementById('convertion').innerHTML = `${f} Fahrenheit is  ${c} Celius`;
 }
