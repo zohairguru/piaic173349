@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 14</title>
+</head>
+
+<body>
+
+    <script>
+
+        var a = 2, b = 1;
+        var result = --a - --b + ++b + b--;
+        document.write("a is ?? ", a, "<br/>");
+        document.write("b is ?? ", b, "<br/>");
+        document.write("result is ??", result, "<br/>");
+
+        document.write("<h2>Expain the output at each stage</h2>");
+        var a = 2, b = 1;
+        --a;
+        document.write("Now a is: ", a, "<br/>");
+        var result1 = --a - --b;
+        document.write("Now --a - --b: ", result1, "<br/>");
+
+        var result2 = --a - --b + ++b;
+        document.write("Now --a - --b + ++b: ", result2, "<br/>");
+
+        var result3 = --a - --b + ++b + b--;
+        document.write("Now --a - --b + ++b + b--: ", result3, "<br/>");
+
+    </script>
+</body>
+
+</html>
