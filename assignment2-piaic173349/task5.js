@@ -1,19 +1,19 @@
-// generating a random integer from 1 to 10
-    var random = Math.floor(Math.random() * 10) + 1;
 
-    // take input from the user
-    var number = parseInt(prompt('Enter a number from 1 to 10: '));
+var secret_number = 7;
+var guess = prompt("Guess the secret number (1 to 10): ");
+var num = parseInt(guess);
 
-    // take the input until the guess is correct
-    while(number !== random) {
-        number = parseInt(prompt('Guess a number from 1 to 10: '));
-    }
-
-    // check if the guess is correct
-if (number == random) {
-    document.write("Bingo! Correct");
-        console.log('You guessed the correct number.');
-} else if (number >= 1) {
+if (num  == secret_number){
+    document.write("Bingo! Correct answer");
+}else if (num >= secret_number  ) {
     document.write("Close enough to the correct answer");
-        console.log('Close enough to the correct answer');
+}else if(num < 3){
+    document.write("Wrong answer, try again");
+} else {
+    document.write("Little far to close guess");
 }
+
+
+
+
+
