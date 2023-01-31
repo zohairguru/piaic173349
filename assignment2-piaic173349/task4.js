@@ -28,17 +28,20 @@ document.write("<h3>", 'Percentage: ',  percentage,'%',"</h3>");
 //Congition 
 if ( percentage >= 80) {
     //alert(mark);
-    document.write("Grade : A-one");
-    document.write("Excellent");
+    document.write("<h3>",'Grade : A-one',"<h3>");
+    document.write("<h3>",'Remarks : Excellent',"</h3>");
     
 } else if (percentage >= 70) {
     //alert(mark);
-    document.write("Seventy percentage");
+    document.write("<h3>",'Grade : A',"</h3>");
+    document.write("<h3>",'Remarks : Good',"</h3>");
 } else if(percentage >=60){
     //alert(mark);
-    document.write("Sixty percentage");
+    document.write("<h3>",'Grade : B',"</h3>");
+    document.write("<h3>",'Remarks : You need to to improve',"</h3>");
 } else if (percentage < 60) {
     //alert(mark);
+    document.write("<h3>",'Grade : Fail',"</h3>");
     document.write("<h3>",'You need to improve',"</h3>");
 }
 
