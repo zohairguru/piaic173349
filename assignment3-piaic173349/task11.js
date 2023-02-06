@@ -9,8 +9,8 @@ const userInput = prompt("Enter item to search:");
 const result = search(A, userInput);
 
 if (result) {
-  alert(`${userInput} is found in the list.`);
+  alert(`${userInput} is avaible at index  in our bakery.`);
 } else {
-  alert(`${userInput} is not found in the list.`);
+  alert(`We are sorry ${userInput}  is not avaible in the our bakery.`);
 }
 
