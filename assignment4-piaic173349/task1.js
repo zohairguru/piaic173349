@@ -5,4 +5,3 @@
             document.getElementById("city").innerHTML = newCity;
 }
         
-replaceHyderWithIslam();
