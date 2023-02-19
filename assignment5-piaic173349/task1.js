@@ -9,6 +9,6 @@ function factorial(num) {
 }
 
 console.log(factorial(5)); // Output: 120
-document.write("Factorial ", factorial(8));
-document.write("Factorial ", factorial(5));
-document.write("Factorial ", factorial(9));
+document.write("Factorial ", factorial(8),"<br>");
+document.write("Factorial ", factorial(5),"<br>");
+document.write("Factorial ", factorial(9),"<br>");
