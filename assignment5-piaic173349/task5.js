@@ -23,7 +23,7 @@ function countCurrencyNotes(amount) {
   console.log(`Number of 10 notes: ${tenNotes}`);
 }
 
-countCurrencyNotes(5); // Output: Number of 100 notes: 0, Number of 50 notes: 0, Number of 10 notes: 5
-countCurrencyNotes(17); // Output: Number of 100 notes: 0, Number of 50 notes: 1, Number of 10 notes: 2
-countCurrencyNotes(121); // Output: Number of 100 notes: 1, Number of 50 notes: 0, Number of 10 notes: 2
+countCurrencyNotes(5); 
+countCurrencyNotes(17); 
+countCurrencyNotes(121); 
 
